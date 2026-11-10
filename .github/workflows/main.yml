@@ -10,6 +10,7 @@ jobs:
         include:
           - { ver: v1.0, zip: CatosLauncher.zip, notes: "First version: liquid glass home, app drawer, pins and dock." }
           - { ver: v1.1, zip: CatosLauncher-v1.1.zip, notes: "Settings screen, Games section, hide apps, list view, web search and a fixed signing key." }
+          - { ver: v1.2, zip: CatosLauncher-v1.2.zip, notes: "Tools sheet, rename apps, custom dock, calculator search, lock gesture, themes and secrets." }
     steps:
       - uses: actions/checkout@v4
       - name: Unzip project
